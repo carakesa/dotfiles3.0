@@ -1,0 +1,7 @@
+DOTFILES_DIRS="$HOME/.dotfiles"
+EXCLUDES="*.jpg *.swp"
+TAGS=""
+COPY_ALWAYS=""
+SYMLINK_DIRS=""
+UNDOTTED=""
+

@@ -1,0 +1,3 @@
+[submodule "sway_dots"]
+	path = sway_dots
+	url = git@github.com:carakesa/sway_dots.git
