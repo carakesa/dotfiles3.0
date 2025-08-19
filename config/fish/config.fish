@@ -9,6 +9,11 @@ if status is-interactive
 end
 ##set COLOR1 (xrdb -query | grep "color1" | cut -f 2 | tail -1)
 
+##### pywal!!! #####
+if type wal >>/dev/null 2>&1; and test -f ~/.cache/wal/colors.fish
+
+    source ~/.cache/wal/colors.fish
+end
 source ~/.cache/wal/fzf.fish
 
 ####  SOURCE OTHER FILES #####
