@@ -52,8 +52,8 @@
 
 /* Window background color (RGB format).
    Does not work with `setopacity "xroot"` */
-// #define COLOR mix({color4}, {color5}, clamp(d / 80, 0, 1))
-#request setbg {background.strip}00
+// #define COLOR mix(#292c3c, #2b2d47, clamp(d / 80, 0, 1))
+#request setbg 08081200
 
 /* (X11 only) EWMH Window type. Possible values are:
    

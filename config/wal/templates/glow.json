@@ -1,196 +1,196 @@
-{{
-  "document": {{
+{
+  "document": {
     "block_prefix": "\n",
     "block_suffix": "\n",
-    "color": "{foreground}",
+    "color": "#c1c1c3",
     "margin": 2
-  }},
-  "block_quote": {{
+  },
+  "block_quote": {
     "indent": 1,
     "indent_token": "│ "
-  }},
-  "paragraph": {{}},
-  "list": {{
+  },
+  "paragraph": {},
+  "list": {
     "level_indent": 2
-  }},
-  "heading": {{
+  },
+  "heading": {
     "block_suffix": "\n",
-    "color": "{color11}",
+    "color": "#4d447b",
     "bold": true
-  }},
-  "h1": {{
+  },
+  "h1": {
     "prefix": " ",
     "suffix": " ",
-    "color": "{color10}",
-    "background_color": "{background}",
+    "color": "#444474",
+    "background_color": "#080812",
     "bold": true
-  }},
-  "h2": {{
+  },
+  "h2": {
     "prefix": "## ",
-    "color": "{color5}"
-  }},
-  "h3": {{
+    "color": "#2b2d47"
+  },
+  "h3": {
     "prefix": "### "
-  }},
-  "h4": {{
+  },
+  "h4": {
     "prefix": "#### "
-  }},
-  "h5": {{
+  },
+  "h5": {
     "prefix": "##### "
-  }},
-  "h6": {{
+  },
+  "h6": {
     "prefix": "###### ",
-    "color": "{color7}",
+    "color": "#c1c1c3",
     "bold": false
-  }},
-  "text": {{}},
-  "strikethrough": {{
+  },
+  "text": {},
+  "strikethrough": {
     "crossed_out": true
-  }},
-  "emph": {{
+  },
+  "emph": {
     "italic": true
-  }},
-  "strong": {{
+  },
+  "strong": {
     "bold": true
-  }},
-  "hr": {{
-    "color": "{color5}",
+  },
+  "hr": {
+    "color": "#2b2d47",
     "format": "\n--------\n"
-  }},
-  "item": {{
+  },
+  "item": {
     "block_prefix": "• "
-  }},
-  "enumeration": {{
+  },
+  "enumeration": {
     "block_prefix": ". "
-  }},
-  "task": {{
+  },
+  "task": {
     "ticked": "[✓] ",
     "unticked": "[ ] "
-  }},
-  "link": {{
-    "color": "{color5}",
+  },
+  "link": {
+    "color": "#2b2d47",
     "underline": true
-  }},
-  "link_text": {{
-    "color": "{color6}",
+  },
+  "link_text": {
+    "color": "#34314b",
     "bold": true
-  }},
-  "image": {{
-    "color": "{color7}",
+  },
+  "image": {
+    "color": "#c1c1c3",
     "underline": true
-  }},
-  "image_text": {{
-    "color": "{color8}",
-    "format": "Image: {{{{.text}}}} →"
-  }},
-  "code": {{
+  },
+  "image_text": {
+    "color": "#57576a",
+    "format": "Image: {{.text}} →"
+  },
+  "code": {
     "prefix": " ",
     "suffix": " ",
-    "color": "{color5}",
-    "background_color": "{background}"
-  }},
-  "code_block": {{
-    "color": "{foreground}",
+    "color": "#2b2d47",
+    "background_color": "#080812"
+  },
+  "code_block": {
+    "color": "#c1c1c3",
     "margin": 2,
-    "chroma": {{
-      "text": {{
-        "color": "{foreground}"
-      }},
-      "error": {{
-        "color": "{color1}",
-        "background_color": "{background}"
-      }},
-      "comment": {{
-        "color": "{color8}"
-      }},
-      "comment_preproc": {{
-        "color": "{color3}"
-      }},
-      "keyword": {{
-        "color": "{color4}"
-      }},
-      "keyword_reserved": {{
-        "color": "{color5}"
-      }},
-      "keyword_namespace": {{
-        "color": "{color6}"
-      }},
-      "keyword_type": {{
-        "color": "{color10}"
-      }},
-      "operator": {{
-        "color": "{color9}"
-      }},
-      "punctuation": {{
-        "color": "{color11}"
-      }},
-      "name": {{
-        "color": "{foreground}"
-      }},
-      "name_builtin": {{
-        "color": "{color12}"
-      }},
-      "name_tag": {{
-        "color": "{color13}"
-      }},
-      "name_attribute": {{
-        "color": "{color14}"
-      }},
-      "name_class": {{
-        "color": "{color15}",
+    "chroma": {
+      "text": {
+        "color": "#c1c1c3"
+      },
+      "error": {
+        "color": "#1c2334",
+        "background_color": "#080812"
+      },
+      "comment": {
+        "color": "#57576a"
+      },
+      "comment_preproc": {
+        "color": "#24243c"
+      },
+      "keyword": {
+        "color": "#292c3c"
+      },
+      "keyword_reserved": {
+        "color": "#2b2d47"
+      },
+      "keyword_namespace": {
+        "color": "#34314b"
+      },
+      "keyword_type": {
+        "color": "#444474"
+      },
+      "operator": {
+        "color": "#473e6a"
+      },
+      "punctuation": {
+        "color": "#4d447b"
+      },
+      "name": {
+        "color": "#c1c1c3"
+      },
+      "name_builtin": {
+        "color": "#43546a"
+      },
+      "name_tag": {
+        "color": "#445274"
+      },
+      "name_attribute": {
+        "color": "#545481"
+      },
+      "name_class": {
+        "color": "#c1c1c3",
         "underline": true,
         "bold": true
-      }},
-      "name_constant": {{}},
-      "name_decorator": {{
-        "color": "{color3}"
-      }},
-      "name_exception": {{}},
-      "name_function": {{
-        "color": "{color2}"
-      }},
-      "name_other": {{}},
-      "literal": {{}},
-      "literal_number": {{
-        "color": "{color4}"
-      }},
-      "literal_date": {{}},
-      "literal_string": {{
-        "color": "{foreground}"
-      }},
-      "literal_string_escape": {{
-        "color": "{color6}"
-      }},
-      "generic_deleted": {{
-        "color": "{color10}"
-      }},
-      "generic_emph": {{
+      },
+      "name_constant": {},
+      "name_decorator": {
+        "color": "#24243c"
+      },
+      "name_exception": {},
+      "name_function": {
+        "color": "#242433"
+      },
+      "name_other": {},
+      "literal": {},
+      "literal_number": {
+        "color": "#292c3c"
+      },
+      "literal_date": {},
+      "literal_string": {
+        "color": "#c1c1c3"
+      },
+      "literal_string_escape": {
+        "color": "#34314b"
+      },
+      "generic_deleted": {
+        "color": "#444474"
+      },
+      "generic_emph": {
         "italic": true
-      }},
-      "generic_inserted": {{
-        "color": "{color9}"
-      }},
-      "generic_strong": {{
+      },
+      "generic_inserted": {
+        "color": "#473e6a"
+      },
+      "generic_strong": {
         "bold": true
-      }},
-      "generic_subheading": {{
-        "color": "{color3}"
-      }},
-      "background": {{
-        "background_color": "{background}"
-      }}
-    }}
-  }},
-  "table": {{
+      },
+      "generic_subheading": {
+        "color": "#24243c"
+      },
+      "background": {
+        "background_color": "#080812"
+      }
+    }
+  },
+  "table": {
     "center_separator": "┼",
     "column_separator": "│",
     "row_separator": "─"
-  }},
-  "definition_list": {{}},
-  "definition_term": {{}},
-  "definition_description": {{
+  },
+  "definition_list": {},
+  "definition_term": {},
+  "definition_description": {
     "block_prefix": "\n🠶 "
-  }},
-  "html_block": {{}},
-  "html_span": {{}}
-}}
+  },
+  "html_block": {},
+  "html_span": {}
+}

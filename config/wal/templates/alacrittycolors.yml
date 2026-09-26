@@ -1,48 +1,48 @@
 colors:
   # Default colors
   primary:
-    background: '{background}'
-    foreground: '{foreground}'
+    background: '#080812'
+    foreground: '#c1c1c3'
 
-    dim_foreground:    '{color8}'
-    bright_foreground: '{color12}'
-    dim_background:    '{color8}' # not sure
-    bright_background: '{background}' # not sure
+    dim_foreground:    '#57576a'
+    bright_foreground: '#43546a'
+    dim_background:    '#57576a' # not sure
+    bright_background: '#080812' # not sure
 
   # Cursor colors
   # cursor:
-    # text:   '{foreground}'
-    # cursor: '{background}'
+    # text:   '#c1c1c3'
+    # cursor: '#080812'
 
   # Normal colors
   normal:
-    black:   '{color0}'
-    red:     '{color1}'
-    green:   '{color2}'
-    yellow:  '{color3}'
-    blue:    '{color4}'
-    magenta: '{color5}'
-    cyan:    '{color6}'
-    white:   '{color7}'
+    black:   '#080812'
+    red:     '#1c2334'
+    green:   '#242433'
+    yellow:  '#24243c'
+    blue:    '#292c3c'
+    magenta: '#2b2d47'
+    cyan:    '#34314b'
+    white:   '#c1c1c3'
 
   # Bright colors
   bright:
-    black:   '{color8}'
-    red:     '{color9}'
-    green:   '{color10}'
-    yellow:  '{color11}'
-    blue:    '{color12}'
-    magenta: '{color13}'
-    cyan:    '{color14}'
-    white:   '{color15}'
+    black:   '#57576a'
+    red:     '#473e6a'
+    green:   '#444474'
+    yellow:  '#4d447b'
+    blue:    '#43546a'
+    magenta: '#445274'
+    cyan:    '#545481'
+    white:   '#c1c1c3'
 
   # Dim colors
   dim:
-    black:   '{color0}'
-    red:     '{color1}'
-    green:   '{color2}'
-    yellow:  '{color3}'
-    blue:    '{color4}'
-    magenta: '{color5}'
-    cyan:    '{color6}'
-    white:   '{color7}'
+    black:   '#080812'
+    red:     '#1c2334'
+    green:   '#242433'
+    yellow:  '#24243c'
+    blue:    '#292c3c'
+    magenta: '#2b2d47'
+    cyan:    '#34314b'
+    white:   '#c1c1c3'

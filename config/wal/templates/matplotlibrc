@@ -1,25 +1,25 @@
 # Color for X and Y tick labels
-xtick.color: {foreground.strip}
-ytick.color: {foreground.strip}
+xtick.color: c1c1c3
+ytick.color: c1c1c3
 
 # Display Grid
 axes.grid: True
 # Grid color
-grid.color: {foreground.strip}
+grid.color: c1c1c3
 
 # Colors for line numbers
-axes.prop_cycle: cycler('color', ['{color2.strip}', '{color3.strip}', '{color4.strip}', '{color4.strip}', '{color5.strip}', '{color6.strip}', '{color7.strip}', '{color8.strip}', '{color9.strip}', '{color10.strip}'])
+axes.prop_cycle: cycler('color', ['242433', '24243c', '292c3c', '292c3c', '2b2d47', '34314b', 'c1c1c3', '57576a', '473e6a', '444474'])
 
 # Axes Edge Color
-axes.edgecolor: {color6.strip}
+axes.edgecolor: 34314b
 
 # Background color around graph
-figure.facecolor: {background.strip}
+figure.facecolor: 080812
 
 # Axes title color
-axes.titlecolor: {foreground.strip}
-axes.labelcolor: {foreground.strip}
-text.color: {foreground.strip}
+axes.titlecolor: c1c1c3
+axes.labelcolor: c1c1c3
+text.color: c1c1c3
 
 # Background Color
-axes.facecolor: {background.strip}
+axes.facecolor: 080812

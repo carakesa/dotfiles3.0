@@ -9,11 +9,11 @@ bar_spacing = 1
 [color]
 gradient = 1
 gradient_count = 4
-gradient_color_1 = '{color1}'
-gradient_color_2 = '{color2}'
-gradient_color_3 = '{color4}'
-gradient_color_4 = '{color5}'
-gradient_color_5 = '{color6}'
+gradient_color_1 = '#1c2334'
+gradient_color_2 = '#242433'
+gradient_color_3 = '#292c3c'
+gradient_color_4 = '#2b2d47'
+gradient_color_5 = '#34314b'
 
 [output]
 #█▓▒░ Ouput method. Can be 'ncurses', 'noncurses' or 'raw'.

@@ -1,29 +1,29 @@
-{{
-    "colors": {{
+{
+    "colors": {
         "r": 170,
         "g": 207,
         "b": 209,
-        "black": "{background}",
-        "light_black": "{background}",
-        "grey": "{color7}"
-    }},
-    "cssvars": {{
+        "black": "#080812",
+        "light_black": "#080812",
+        "grey": "#c1c1c3"
+    },
+    "cssvars": {
         "font_main": "United Sans Medium",
         "font_main_light": "United Sans Light"
-    }},
-    "terminal": {{ 
+    },
+    "terminal": { 
         "fontFamily": "Hack",
         "cursorStyle": "block",
-        "foreground": "{foreground}",
-        "background": "{background}",
-        "cursor": "{background}",
-        "cursorAccent": "{color11}",
-        "selection": "{color3.rgba}"
-    }},
-    "globe": {{
-        "base": "{foreground}",
-        "marker": "{color3}",
-        "pin": "{color9}",
-        "satellite": "{color11}"
-    }}
-}}
+        "foreground": "#c1c1c3",
+        "background": "#080812",
+        "cursor": "#080812",
+        "cursorAccent": "#4d447b",
+        "selection": "rgba(36,36,60,1.0)"
+    },
+    "globe": {
+        "base": "#c1c1c3",
+        "marker": "#24243c",
+        "pin": "#473e6a",
+        "satellite": "#4d447b"
+    }
+}

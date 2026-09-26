@@ -132,3 +132,6 @@ alias more=less
 alias please="eval sudo (history -1 | string trim)"
 
 #end
+
+# Created by `pipx` on 2026-07-16 01:08:01
+set PATH $PATH /home/shanec80/.local/bin

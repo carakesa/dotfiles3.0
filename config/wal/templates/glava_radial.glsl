@@ -4,7 +4,7 @@
 /* center line thickness (pixels) */
 #define C_LINE 2
 /* outline color */
-#define OUTLINE {color4}
+#define OUTLINE #292c3c
 /* number of bars (use even values for best results) */
 #define NBARS 180
 /* width (in pixels) of each bar*/
@@ -16,7 +16,7 @@
 /* Amplify magnitude of the results each bar displays */
 #define AMPLIFY 300
 /* Bar color */ 
-#define COLOR ({color5} * ((d / 40) + 1))
+#define COLOR (#2b2d47 * ((d / 40) + 1))
 /* Angle (in radians) for how much to rotate the visualizer */
 #define ROTATE (PI / 2)
 /* Whether to switch left/right audio buffers */

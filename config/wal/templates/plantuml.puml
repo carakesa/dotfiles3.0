@@ -7,27 +7,27 @@ skinparam backgroundColor $BGCOLOR
 ''
 '' Colors taken from the css file of the BS theme
 ''
-!$BLUE = "{color4}"
-!$INDIGO = "{color5}"
-!$PURPLE = "{color6}"
-!$PINK = "{color7}"
-!$RED = "{color9}"
-!$ORANGE = "{color8}"
-!$YELLOW = "{color3}"
-!$GREEN = "{color2}"
-!$TEAL = "{color6}"
-!$CYAN = "{color12}"
-!$WHITE = "{foreground}"
-!$GRAY_DARK = "{color8}"
-!$GRAY = "{color9}"
-!$PRIMARY = "{foreground}"
-!$SECONDARY = "{color7}"
-!$SUCCESS = "{color4}"
-!$INFO = "{color3}"
-!$WARNING = "{color2}"
-!$DANGER = "{color12}"
-!$LIGHT = "{color6}"
-!$DARK = "{color10}"
+!$BLUE = "#292c3c"
+!$INDIGO = "#2b2d47"
+!$PURPLE = "#34314b"
+!$PINK = "#c1c1c3"
+!$RED = "#473e6a"
+!$ORANGE = "#57576a"
+!$YELLOW = "#24243c"
+!$GREEN = "#242433"
+!$TEAL = "#34314b"
+!$CYAN = "#43546a"
+!$WHITE = "#c1c1c3"
+!$GRAY_DARK = "#57576a"
+!$GRAY = "#473e6a"
+!$PRIMARY = "#c1c1c3"
+!$SECONDARY = "#c1c1c3"
+!$SUCCESS = "#292c3c"
+!$INFO = "#24243c"
+!$WARNING = "#242433"
+!$DANGER = "#43546a"
+!$LIGHT = "#34314b"
+!$DARK = "#444474"
 
 '' *_LIGHT = tint (lighter) of the main color of 80%
 ''          where TINT is calculated by clr + (255-clr) * tint_factor
@@ -35,23 +35,23 @@ skinparam backgroundColor $BGCOLOR
 ''          and SHADE is calculated by clr * (1 - shade_factor)
 ''
 !$FGCOLOR = $DARK
-!$PRIMARY_LIGHT = "{color7}"
-!$PRIMARY_DARK = "{color8}"
+!$PRIMARY_LIGHT = "#c1c1c3"
+!$PRIMARY_DARK = "#57576a"
 !$PRIMARY_TEXT = $WHITE
-!$SECONDARY_LIGHT = "{color7}"
-!$SECONDARY_DARK = "{color8}"
+!$SECONDARY_LIGHT = "#c1c1c3"
+!$SECONDARY_DARK = "#57576a"
 !$SECONDARY_TEXT = $DARK
-!$INFO_LIGHT = "{color8}"
-!$INFO_DARK = "{color9}"
+!$INFO_LIGHT = "#57576a"
+!$INFO_DARK = "#473e6a"
 !$INFO_TEXT = $WHITE
-!$SUCCESS_LIGHT = "{color2}"
-!$SUCCESS_DARK = "{color8}"
+!$SUCCESS_LIGHT = "#242433"
+!$SUCCESS_DARK = "#57576a"
 !$SUCCESS_TEXT = $WHITE
-!$WARNING_LIGHT = "{color7}"
-!$WARNING_DARK = "{color3}"
+!$WARNING_LIGHT = "#c1c1c3"
+!$WARNING_DARK = "#24243c"
 !$WARNING_TEXT = $WHITE
-!$DANGER_LIGHT = "{color6}"
-!$DANGER_DARK = "{color9}"
+!$DANGER_LIGHT = "#34314b"
+!$DANGER_DARK = "#473e6a"
 !$DANGER_TEXT = $WHITE
 
 !procedure $success($msg)
@@ -83,7 +83,7 @@ skinparam roundcorner            0
 skinparam ParticipantPadding     40
 skinparam BoxPadding             40
 skinparam Padding                5
-skinparam stereotype {{
+skinparam stereotype {
     '' background of circle for classes
     CBackgroundColor $LIGHT
     CBorderColor $SECONDARY_DARK
@@ -97,35 +97,35 @@ skinparam stereotype {{
     EBorderColor $WARNING_DARK
     NBackgroundColor transparent
     NBorderColor $INFO_DARK
-}}
-skinparam title {{
+}
+skinparam title {
 	FontColor	                 $CYAN
 	BorderColor	                 $BLUE
 	FontSize	    	         20
 	BorderRoundCorner            0
 	BorderThickness 	         0
 	BackgroundColor            $BGCOLOR
-}}
+}
 
 
-skinparam legend {{
+skinparam legend {
 	BackgroundColor transparent
 	BorderColor $SECONDARY_DARK
   FontColor $PRIMARY_TEXT
-}}
+}
 
 !startsub swimlane
-skinparam swimlane {{
+skinparam swimlane {
 	BorderColor $INFO
 	BorderThickness 2
 	TitleBackgroundColor  $SECONDARY_LIGHT-$SECONDARY
 	TitleFontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub activity
 
-skinparam activity {{
+skinparam activity {
 	$primary_scheme()
 	BarColor $SUCCESS
 	StartColor $INFO
@@ -134,40 +134,40 @@ skinparam activity {{
 	DiamondBackgroundColor $BGCOLOR
   	DiamondBorderColor $SECONDARY_DARK
 	DiamondFontColor $SECONDARY_TEXT
-}}
+}
 !endsub
 
 !startsub participant
 
-skinparam participant {{
+skinparam participant {
 	$primary_scheme()
   Color $GREEN
 	ParticipantBorderThickness 2
-}}
+}
 !endsub
 
 !startsub actor
 
-skinparam actor {{
+skinparam actor {
 	$primary_scheme()
 	BorderColor $PINK
 	FontColor $BLUE
-}}
+}
 !endsub
 
 !startsub arrow
 
-skinparam arrow {{
+skinparam arrow {
 	Thickness 3
 	Color $INDIGO
 	FontColor $PRIMARY
   LollipopColor $GREEN
-}}
+}
 !endsub
 
 !startsub sequence
 
-skinparam sequence {{
+skinparam sequence {
 	BorderColor $PRIMARY
 	' For some reason sequence title font color does not pick up from global
 	TitleFontColor $PRIMARY
@@ -190,7 +190,7 @@ skinparam sequence {{
   GroupBodyBackgroundColor $BGCOLOR
 	''
 	DividerBackgroundColor $BLUE
-    DividerFontColor {background}
+    DividerFontColor #080812
     DividerBorderColor $GRAY
     DividerBorderThickness 2
 	''
@@ -198,246 +198,246 @@ skinparam sequence {{
 	ReferenceBorderColor $BLUE
 	ReferenceFontColor $PRIMARY
 	ReferenceHeaderFontColor $INFO
-}}
+}
 !endsub
 
 !startsub partition
 
-skinparam partition {{
+skinparam partition {
 	BorderColor $PRIMARY
 	FontColor $PRIMARY
 	BackgroundColor $BGCOLOR
-}}
+}
 !endsub
 
 !startsub collections
 
-skinparam collections {{
+skinparam collections {
 	$primary_scheme()
   BorderColor $INDIGO
-}}
+}
 !endsub
 
 !startsub control
 
-skinparam control {{
+skinparam control {
 	$primary_scheme()
 	FontColor $DARK
-}}
+}
 !endsub
 
 !startsub entity
 
-skinparam entity {{
+skinparam entity {
 	$primary_scheme()
 	FontColor $DARK
-}}
+}
 !endsub
 
 !startsub boundary
 
-skinparam boundary {{
+skinparam boundary {
 	$primary_scheme()
 	FontColor $DARK
-}}
+}
 !endsub
 
 !startsub agent
 
-skinparam agent {{
+skinparam agent {
 	BackgroundColor $BGCOLOR
 	BorderColor $BLUE
 	FontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub note
 
-skinparam note {{
+skinparam note {
 	BorderThickness 1
 	BackgroundColor $BGCOLOR
 	BorderColor $INDIGO
 	FontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub artifact
 
-skinparam artifact {{
+skinparam artifact {
 	BackgroundColor $BGCOLOR
 	BorderColor $SECONDARY_DARK
 	FontColor $SECONDARY_TEXT
-}}
+}
 !endsub
 
 !startsub component
 
-skinparam component {{
+skinparam component {
 	$primary_scheme()
   FontColor $PRIMARY_LIGHT
   BorderColor $YELLOW
-}}
+}
 !endsub
 
 !startsub interface
 
-skinparam interface {{
+skinparam interface {
 	BackgroundColor  $DANGER_LIGHT
 	BorderColor  $DANGER
 	FontColor $DARK
-}}
+}
 !endsub
 
 !startsub storage
 
-skinparam storage {{
+skinparam storage {
 	BackgroundColor $BGCOLOR
   	BorderColor $WARNING
 	FontColor $WARNING_TEXT
-}}
+}
 !endsub
 
 !startsub node
 
-skinparam node {{
+skinparam node {
 	BackgroundColor $BGCOLOR
 	BorderColor $CYAN
 	FontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub cloud
 
-skinparam cloud {{
+skinparam cloud {
 	BackgroundColor $BGCOLOR
 	BorderColor $PURPLE
 	FontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub database
 
-skinparam database {{
+skinparam database {
 	$primary_scheme()
 	FontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub class
 
-skinparam class {{
+skinparam class {
 	$primary_scheme()
 	HeaderBackgroundColor $BGCOLOR
 	StereotypeFontColor $RED
 	BorderThickness 1
 	AttributeFontColor $LIGHT
 	AttributeFontSize 11
-}}
+}
 !endsub
 
 !startsub object
 
-skinparam object {{
+skinparam object {
 	$primary_scheme()
 	StereotypeFontColor $DARK
 	BorderThickness 1
 	AttributeFontColor $SECONDARY_TEXT
 	AttributeFontSize 11
-}}
+}
 !endsub
 
 !startsub usecase
 
-skinparam usecase {{
+skinparam usecase {
 	$primary_scheme()
 	BorderThickness 2
 	BorderColor $BLUE
 	FontColor $TEAL
 	StereotypeFontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub rectangle
 
-skinparam rectangle {{
+skinparam rectangle {
 	FontColor $PRIMARY
 	BorderColor $PRIMARY_LIGHT
 	BackgroundColor $BGCOLOR
 	BorderThickness 2
 	StereotypeFontColor $PRIMARY
-}}
+}
 !endsub
 
 !startsub package
 
-skinparam package {{
+skinparam package {
 	FontColor $PRIMARY
 	BorderColor $PURPLE
 	BackgroundColor $BGCOLOR
 	BorderThickness 2
-}}
+}
 !endsub
 
 !startsub folder
 
-skinparam folder {{
+skinparam folder {
 	BackgroundColor $BGCOLOR
   	BorderColor $WARNING
 	FontColor $PRIMARY
 	BorderThickness 2
-}}
+}
 !endsub
 
 !startsub frame
 
-skinparam frame {{
+skinparam frame {
 	BackgroundColor $BGCOLOR
   	BorderColor $INFO
 	FontColor $INFO
 	BorderThickness 2
-}}
+}
 !endsub
 
 !startsub state
 
-skinparam state {{
+skinparam state {
 	$primary_scheme()
 	StartColor $INFO
 	EndColor $INFO
 	AttributeFontColor $SECONDARY_TEXT
 	AttributeFontSize 11
-}}
+}
 !endsub
 
 !startsub queue
 
-skinparam queue {{
+skinparam queue {
 	$primary_scheme()
-}}
+}
 !endsub
 
 !startsub card
 
-skinparam card {{
+skinparam card {
 	BackgroundColor $INFO_LIGHT-$INFO
 	BorderColor $INFO
 	FontColor $INFO_TEXT
-}}
+}
 !endsub
 
 !startsub file
 
-skinparam file {{
+skinparam file {
 	BackgroundColor $SECONDARY_LIGHT-$SECONDARY
 	BorderColor $INFO
 	FontColor $GRAY
 
-}}
+}
 !endsub
 
 !startsub stack
 
-skinparam stack {{
+skinparam stack {
 	$primary_scheme()
-}}
+}
 !endsub

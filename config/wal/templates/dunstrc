@@ -155,7 +155,7 @@
 
 [frame]
     width = 3
-    color = "{color5}"
+    color = "#2b2d47"
 
 [shortcuts]
 
@@ -181,20 +181,20 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "{background}"
-    foreground = "{color2}"
+    background = "#080812"
+    foreground = "#242433"
     timeout = 5
     icon = /home/gideon/.icons/oomox-xresources-reverse-flat/actions/scalable/ok.svg
 
 [urgency_normal]
-    background = "{background}"
-    foreground = "{color4}"
+    background = "#080812"
+    foreground = "#292c3c"
     timeout = 5
     icon = /home/gideon/.icons/oomox-xresources-reverse-flat/status/scalable/info.svg
 
 [urgency_critical]
-    background = "{background}"
-    foreground = "{color9}"
+    background = "#080812"
+    foreground = "#473e6a"
     timeout = 0
     icon = /home/gideon/.icons/oomox-xresources-reverse-flat/status/scalable/error.svg
 

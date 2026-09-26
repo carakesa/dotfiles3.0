@@ -3,7 +3,7 @@
 /* center line thickness (pixels) */
 #define C_LINE 1.5
 /* outline color */
-#define OUTLINE {color6}
+#define OUTLINE #34314b
 /* Amplify magnitude of the results each bar displays */
 #define AMPLIFY 180
 /* Angle (in radians) for how much to rotate the visualizer */

@@ -6,11 +6,11 @@
 
 /* base color to use, distance from center will multiply the RGB components */
 // #define BASE_COLOR vec4(0.7, 0.2, 0.45, 1)
-#define BASE_COLOR {background}
+#define BASE_COLOR #080812
 
 /* amplitude */
 #define AMPLIFY 800
 
 /* outline color */
 // #define OUTLINE vec4(0.15, 0.15, 0.15, 1)
-#define OUTLINE {color4}
+#define OUTLINE #292c3c

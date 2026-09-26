@@ -1,16 +1,16 @@
-static struct Config config = {{
+static struct Config config = {
 	/* font */
 	// .font = "monospace:size=9", [> for regular items <]
   // .font = "Hack:size=9,",
   .font = "HackNerdFont:size=9,FontAwesome:size=9",
 
 	/* colors */
-	.background_color = "{background}",
-	.foreground_color = "{foreground}",
-	.selbackground_color = "{background}",
-	.selforeground_color = "{color2}",
-	.separator_color = "{color4}",
-	.border_color = "{color5}",
+	.background_color = "#080812",
+	.foreground_color = "#c1c1c3",
+	.selbackground_color = "#080812",
+	.selforeground_color = "#242433",
+	.separator_color = "#292c3c",
+	.border_color = "#2b2d47",
 
 	/* sizes in pixels */
 	.width_pixels = 130,        /* minimum width of a menu */
@@ -33,4 +33,4 @@ static struct Config config = {{
 
 	/* area around the icon, the triangle and the separator */
 	.horzpadding = 10,
-}};
+};
