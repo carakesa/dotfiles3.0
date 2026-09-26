@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+sudo -n /usr/bin/libinput debug-events 2>/dev/null |
+  while IFS= read -r line; do
+    case "$line" in
+    *"switch tablet-mode state 1"*)
+      dms ipc call virtualKeyboard toggle
+      ;;
+    *"switch tablet-mode state 0"*)
+      dms ipc call virtualKeyboard toggle
+      ;;
+    esac
+  done

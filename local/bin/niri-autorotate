@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+OUTPUT="eDP-1"
+
+monitor-sensor --accel | while IFS= read -r line; do
+    case "$line" in
+        *"orientation changed: normal"*)
+            niri msg output "$OUTPUT" transform normal
+            ;;
+        *"orientation changed: left-up"*)
+            niri msg output "$OUTPUT" transform 90
+            ;;
+        *"orientation changed: right-up"*)
+            niri msg output "$OUTPUT" transform 270
+            ;;
+        *"orientation changed: bottom-up"*)
+            niri msg output "$OUTPUT" transform 180
+            ;;
+    esac
+done
