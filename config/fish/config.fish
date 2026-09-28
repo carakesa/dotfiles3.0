@@ -3,17 +3,17 @@
 # Attempt to tie in Pywal with Fish thanks to "GideonWolfe/dots"
 
 ##### Rice-Rice Baby! (wal colors and sourcing)   ####### 
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-    /usr/bin/cat ~/.cache/wal/sequences &
-end
+#if status is-interactive
+# Commands to run in interactive sessions can go here
+#    /usr/bin/cat ~/.cache/wal/sequences &
+#end
 ##set COLOR1 (xrdb -query | grep "color1" | cut -f 2 | tail -1)
 
 ##### pywal!!! #####
-if type wal >>/dev/null 2>&1; and test -f ~/.cache/wal/colors.fish
+#if type wal >>/dev/null 2>&1; and test -f ~/.cache/wal/colors.fish
 
-    source ~/.cache/wal/colors.fish
-end
+#source ~/.cache/wal/colors.fish
+#end
 source ~/.cache/wal/fzf.fish
 
 ####  SOURCE OTHER FILES #####
@@ -79,10 +79,9 @@ export MANROFFOPT="-c"
 
 alias q=exit
 # Alias for vi/vim/nvim/spacevim by calling utility script.
-alias v="~/.dotfiles/utils/vicheck.sh"
+#alias v="~/.dotfiles/utils/vicheck.sh"
 alias vi="~/.dotfiles/utils/vicheck.sh"
 alias vim="~/.dotfiles/utils/vicheck.sh"
-alias lvim="~/.local/bin/lvim"
 # exa as ls
 #alias l='exa'
 #alias ls='exa'
