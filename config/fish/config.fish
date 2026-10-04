@@ -14,7 +14,7 @@
 
 #source ~/.cache/wal/colors.fish
 #end
-source ~/.cache/wal/fzf.fish
+#source ~/.cache/wal/fzf.fish
 
 ####  SOURCE OTHER FILES #####
 
@@ -56,7 +56,7 @@ set QT_AUTO_SCREEN_SCALE_FACTOR 0 # fix some QT scaling issues
 set QT_QPA_PLATFORMTHEME qt5ct
 set QT_STYLE_OVERRIDE gtk3
 #set GOPATH '/home/gideon/Programs/go' # to fix go putting main folder in ~
-set EDITOR lvim
+set EDITOR nvim
 set PYTHONDONTWRITEBYTECODE yes # Prevent creation of __pycache__ folders
 
 ##set COLOR1 (xrdb -query | grep "color1" | cut -f 2 | tail -1)
@@ -80,8 +80,8 @@ export MANROFFOPT="-c"
 alias q=exit
 # Alias for vi/vim/nvim/spacevim by calling utility script.
 #alias v="~/.dotfiles/utils/vicheck.sh"
-alias vi="~/.dotfiles/utils/vicheck.sh"
-alias vim="~/.dotfiles/utils/vicheck.sh"
+#alias vi="~/.dotfiles/utils/vicheck.sh"
+#alias vim="~/.dotfiles/utils/vicheck.sh"
 # exa as ls
 #alias l='exa'
 #alias ls='exa'

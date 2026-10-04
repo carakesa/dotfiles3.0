@@ -6,13 +6,13 @@
 input {
     mouse {
         accel-speed 0.0
+        accel-profile "adaptive"
     }
     touchpad {
         accel-speed 0.0
+        accel-profile "adaptive"
         natural-scroll
         dwt
-        scroll-method "two-finger"
-        drag false
     }
 }
 
