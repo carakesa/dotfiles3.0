@@ -5,6 +5,8 @@
 config-notification {
     disable-failed
 }
+
+workspace "3:💬"
 // Outputs from existing configuration
 /-output "eDP-1" {
     // Uncomment this line to disable this output.
@@ -175,6 +177,8 @@ spawn-at-startup "~/.local/bin/niri-osk-toggle.sh"
 
 //spawn-at-startup "~/.local/bin/dms-tablet-keyboard"
 spawn-sh-at-startup "/usr/bin/foot --server"
+spawn-at-startup "gnome-keyring-daemon" "--start" "--components=secrets"
+
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 prefer-no-csd
 
@@ -262,6 +266,28 @@ window-rule {
     match app-id="zoom"
     open-floating true
 }
+
+window-rule {
+    match app-id=r#"^com\.discordapp\.Discord$"# // Use r#"^discord$"# if you use the flatpak or webapp version
+    open-on-workspace "3"
+}
+window-rule {
+    match app-id=r#"^vesktop$"# // Use r#"^discord$"# if you use the flatpak or webapp version
+    open-on-workspace "3"
+}
+
+
+window-rule {
+    match title="Baldur's Gate 3"
+    
+    // Forces the window to float if it misbehaves in tiling mode
+    open-floating true 
+    
+    // Critical for first-person/RPG mouse movement: allows the game to trap your cursor
+    geometry-corner-radius 0
+    //block-out-of-bounds true
+}
+
 debug {
     honor-xdg-activation-with-invalid-serial
 }
